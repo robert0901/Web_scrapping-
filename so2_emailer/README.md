@@ -1,6 +1,6 @@
 # SO<sub>2</sub> Webscraper
 ## The Problem
-My team at work needed to track 12 # SO<sub>2</sub> monitors in different regions of Texas to make sure they were complying with the Data Requirements Rule (DRR) for the 2010, One-Hour SO<sub>2</sub> Primary NAAQS, 80 FR 5105
+My team at work needed to track 12 SO<sub>2</sub> monitors in different regions of Texas to make sure they were complying with the Data Requirements Rule (DRR) for the 2010, One-Hour SO<sub>2</sub> Primary NAAQS, 80 FR 5105
 In the beginning, this task was done by hand by checking each monitor individualy each day. 
 
 ## The Solution
