@@ -53,11 +53,11 @@ class so2(object):
 			ste.airs = ste.airs.astype('str')
 			tot = pd.merge(std,ste, how='left', on='airs')
 			tot.Date = tot.Date.apply(lambda x: dt.datetime.strptime(x,'%Y%m%d%H%M%S'))
-			contacts = ['Timothy.Janke@tceq.texas.gov','robert.ramirez@tceq.texas.gov','zhaohua.fang@tceq.texas.gov']
+			contacts = ['team_member@email.com'] #sends to contacts
 			x = tot.to_html(index=False)
 			msg = EmailMessage()
 			msg['Subject'] = 'These SO2 monitors had a high event'
-			msg['From'] = 'roramire@storm.localdomain'
+			msg['From'] = 'robert@email.com'
 			msg['To'] = contacts
 #			msg['To'] = 'robert.ramirez@tceq.texas.gov'
 			
